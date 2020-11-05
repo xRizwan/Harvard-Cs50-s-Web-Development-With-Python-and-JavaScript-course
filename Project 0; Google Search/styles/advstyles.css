@@ -1,0 +1,62 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#nav-bar {
+    height: 30px;
+    background-color: rgb(235, 235, 235);
+}
+.item {
+    padding-top: 10px;
+}
+.logo {
+    top: -35px;
+    position: absolute;
+    z-index: 10;
+    width: 90px;
+    height: 35px;
+}
+.header {
+    padding: 10px;
+    color: rgb(218, 96, 75);
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid rgba(168, 168, 168, 0.5);;
+}
+.head1 {
+    margin-left: 10px;
+}
+h4 {
+    font-size: 14px;
+}
+#searchboxes{
+    margin: 30px;
+    line-height: 50px;
+    font-size: 12px;
+}
+.label1 {
+    padding-right: 100px;
+}
+.label2{
+    padding-right: 38px;
+}
+.label3{
+    padding-right: 77px;
+}
+.label4{
+    padding-right: 66px;
+}
+.sField{
+    width: 30rem;
+    height: 1.5rem;
+    border: 1px solid rgba(168, 168, 168, 0.7);
+}
+.info {
+    border: 4px solid rgba(168, 168, 168, 0.3);
+    margin-left: 10px;
+}
+.submit1 {
+    background: dodgerblue;
+    color: white;
+    opacity: 90%;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}

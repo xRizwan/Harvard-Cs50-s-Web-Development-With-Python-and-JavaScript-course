@@ -1,0 +1,38 @@
+textarea {
+    min-height: 400px;
+}
+.email{
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    padding: 3px;
+    color: black;
+    width: 100%;
+    cursor: pointer;
+}
+.email-title{
+    font-weight: bold;
+    width: 150px;
+}
+.email-message{
+    margin-left: 2%;
+    width: 65%;
+    font-weight: 600;
+    box-sizing: border-box;
+    height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.email-date{
+    margin-left: 2%;
+    box-sizing: border-box;
+    width: 222px;
+    text-align: right;
+}
+.mail-timestamp{
+    margin-bottom: 10px;
+}
+#message-container{
+    display: none;
+}
