@@ -10,7 +10,7 @@ class User():
     	self.name = newName
 
 def main():
-	firstUser = User("Rizwan", 19)
+	firstUser = User("Name", 999)
 	firstUser.speakName()
 
 if __name__ == "__main__":
