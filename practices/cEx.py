@@ -6,7 +6,7 @@ class User():
     def speakName(self):
     	print(f"I am {self.name} and {self.age} years Old!")
 
-    def changeName(self ,newName):
+    def changeName(self, newName):
     	self.name = newName
 
 def main():
